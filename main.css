@@ -1,0 +1,403 @@
+@import url(./fonts.css);
+
+.navbar-nav {
+  --bs-navbar-color: rgba(255, 255, 255, 0.812);
+  --bs-navbar-hover-color: rgb(255, 255, 255);
+  --bs-navbar-disabled-color: rgb(254, 253, 253);
+  --bs-navbar-active-color: rgb(255, 255, 255);
+}
+.font-h1 {
+  font-size: 64px;
+}
+.font-p {
+  font-size: 24px;
+}
+.img-size {
+  background-image: url(./image/Background.png);
+}
+.text-decrease {
+  width: 1142px;
+  height: 231px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 30px;
+}
+.card-body {
+  width: 349px;
+  height: 137px;
+}
+.card-text {
+  width: 349px;
+  height: 137px;
+  margin: 0 auto;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.portfolio {
+  height: 768px;
+}
+.profile-image {
+  width: 350px;
+  height: 340px;
+}
+.grid-profile {
+  display: grid;
+  grid-template-columns: 150px 546px;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px;
+  gap: 20px 20px;
+}
+.profile-progress {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 18px;
+}
+.profile-dev {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 18px;
+}
+
+.research-progress {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 18px;
+}
+.research-progress-bar {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.tools-research {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-size: 18px;
+}
+.tools-equipment {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.design-progress {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-size: 18px;
+}
+
+.design-progress-bar {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.tools-design {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  font-size: 18px;
+}
+.tools-apps {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  font-size: 18px;
+}
+.front-end-progress {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  font-size: 18px;
+}
+.front-end-progress-bar {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.tools-front-end {
+  grid-column: 1/2;
+  grid-row: 7/8;
+  font-size: 18px;
+}
+.tools-programming {
+  grid-column: 2/3;
+  grid-row: 7/8;
+  font-size: 18px;
+}
+.mar-top {
+  margin-top: 50px;
+  width: 446px;
+}
+.research {
+  font-family: "Libre Franklin";
+}
+
+@media screen and (max-width: 1200px) {
+  .font-h1 {
+    font-size: 45px;
+  }
+  .block-arrow {
+    display: none;
+  }
+  h2 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .block-skills {
+    flex-direction: column;
+  }
+  .card-body {
+    width: 821px;
+    height: 71px;
+  }
+  .card-text {
+    width: 821px;
+    height: 71px;
+  }
+
+  .text-decrease {
+    width: 998px;
+    height: 231px;
+    line-height: 30px;
+  }
+  .container-profile {
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-profile {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 180px 355px;
+  }
+  .mar-top {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mar-top {
+    width: 350px;
+  }
+  .card-body {
+    width: 696px;
+    height: 90px;
+  }
+
+  .card-text {
+    width: 696px;
+    height: 90px;
+    margin: 0 auto;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+  }
+  .text-decrease {
+    width: 787px;
+    height: 231px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    height: 575px;
+  }
+  .card-body {
+    width: 516px;
+    height: 110px;
+  }
+  .card-text {
+    width: 516px;
+    height: 110px;
+  }
+
+  .text-decrease {
+    width: 558px;
+    height: 231px;
+    line-height: 25px;
+  }
+  .image-grid-1 {
+    width: 169.76px;
+    height: 69.85px;
+  }
+  .image-grid-2 {
+    width: 169.76px;
+    height: 113.01px;
+  }
+  .image-grid-3 {
+    width: 123.69px;
+    height: 113.01px;
+  }
+  .image-grid-4 {
+    width: 123.69px;
+    height: 69.85px;
+  }
+  .profile-image {
+    width: 224px;
+    height: 218px;
+  }
+  .mar-top {
+    width: 300px;
+  }
+  .grid-profile {
+    grid-template-columns: 140px 310px;
+  }
+  .container-profile {
+    height: 760px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .portfolio {
+    height: 275px;
+  }
+  .card-body {
+    width: 340px;
+    height: 110px;
+  }
+  .card-text {
+    width: 340px;
+    height: 110px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .container-profile {
+    height: 750px;
+  }
+  .text-portofolio {
+    display: flex;
+    justify-content: center;
+  }
+  .text-header {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .font-h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .font-p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .text-decrease {
+    width: 388px;
+    height: 231px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .menu-navbar {
+    position: absolute;
+    top: 70px;
+  }
+  .mar-top {
+    width: 225px;
+  }
+  .profile-progress {
+    font-size: 15px;
+  }
+  .research-progress {
+    font-size: 15px;
+  }
+  .profile-dev {
+    font-size: 13px;
+  }
+  .tools-research {
+    font-size: 15px;
+  }
+  .tools-equipment {
+    font-size: 13px;
+  }
+  .design-progress {
+    font-size: 15px;
+  }
+  .tools-design {
+    font-size: 15px;
+  }
+  .tools-apps {
+    font-size: 13px;
+  }
+  .front-end-progress {
+    font-size: 15px;
+  }
+  .tools-front-end {
+    font-size: 15px;
+  }
+  .tools-programming {
+    font-size: 13px;
+  }
+  .grid-profile {
+    grid-template-columns: 90px 260px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text-decrease {
+    width: 76.8vw;
+    height: 231px;
+    font-size: 3.75vw;
+    line-height: 15px;
+  }
+  .card-text {
+    width: 297px;
+    height: 90px;
+    font-size: 12px;
+  }
+  .card-body {
+    width: 297px;
+    height: 90px;
+  }
+  .mar-top {
+    width: 180px;
+  }
+  .grid-profile {
+    grid-template-columns: 90px 180px;
+  }
+  .profile-progress {
+    font-size: 13px;
+  }
+  .research-progress {
+    font-size: 13px;
+  }
+  .profile-dev {
+    font-size: 13px;
+  }
+  .tools-research {
+    font-size: 13px;
+  }
+  .tools-equipment {
+    font-size: 12px;
+  }
+  .design-progress {
+    font-size: 13px;
+  }
+  .tools-design {
+    font-size: 13px;
+  }
+  .tools-apps {
+    font-size: 12px;
+  }
+  .front-end-progress {
+    font-size: 13px;
+  }
+  .tools-front-end {
+    font-size: 13px;
+  }
+  .tools-programming {
+    font-size: 12px;
+  }
+  .font-h1 {
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
